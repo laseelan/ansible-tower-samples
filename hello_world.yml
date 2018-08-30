@@ -3,10 +3,10 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World! --"
+        msg: "Hello World!"
     - name: run the new hello module
       hello:
-        name: 'Avinash Pawar'
+        name: 'Laseelan PM'
       register: helloout
     - name: dump test output
       debug:
